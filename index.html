@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParBa</title>
+
+    <!--lien google-fonts-->
+    <link rel="preconnect" href="Tech Life Remote Life (1).png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!--lien css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!--Contenu de la page-->
+<body>
+
+    <!--NAVBAR-->
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo" aria-label="Accueil ParBa">ParBa</a>
+            <ul class="nav-menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#apropos">A propos</a></li>
+                <li><a href="#partenaire">Partenaire</a></li>
+                <li><a href="#temoignage">Témoignage</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#" class="login-link">Connexion</a>
+                <a href="#" class="signup-link">Inscription</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--HERO-->
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <p class="eyebrow">Votre assistante !</p>
+                    <h1>ParBa</h1>
+                    <p class="hero-text">
+                        La gestion des remplacements est devenue un enjeu structurant pour les établissements sanitaires
+                        et médico-sociaux.
+                    </p>
+                </div>
+
+                <div class="hero-visual">
+                    <img src="techliferemontelife.png" alt="Illustration ParBa">
+                </div>
+            </div>
+
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">Commencer <span aria-hidden="true">&rarr;</span></a>
+                <a href="#" class="btn btn-secondary">Mon réseau <span aria-hidden="true">&darr;</span></a>
+            </div>
+        </section>
+
+        <section class="presentation" id="apropos">
+            <div class="container presentation-inner">
+                <h2>ParBa</h2>
+                <p class="section-intro">
+                    La gestion des remplacements est devenue un enjeu structurant pour les établissements sanitaires et
+                    médico-sociaux.
+                </p>
+
+                <div class="presentation-text">
+                    <p>
+                        Face à l’absentéisme et ou l’accroissement temporaire d’activité imprévisible dans le temps, la
+                        gestion des remplacements est devenue un enjeu structurant pour les établissements sanitaires et
+                        médico-sociaux. Les outils actuels sont chronophages et peu efficients. Parba propose une
+                        solution digitale simple et efficace, adaptée aux besoins de toutes les structures.
+                    </p>
+                    <p>
+                        ParBa a été pensé pour révolutionner la gestion des ressources humaines dans la santé. Cette
+                        solution de pilotage des absences et des remplacements de personnel, 100% en ligne permet aux
+                        établissements sanitaires et médico-sociaux de gérer leur personnel.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="partners section-space" id="partenaire">
+            <div class="container">
+                <span class="section-line" aria-hidden="true"></span>
+                <h2>Nos partenaires</h2>
+
+                <div class="partners-box">
+                    <button class="arrow-btn" type="button" aria-label="Partenaire précédent">&lsaquo;</button>
+
+                    <div class="partner-logos">
+                        <img src="booterlogo2.png" alt="Partenaire 1">
+                        <img src="boosterlogo1.png" alt="Partenaire 2">
+                        <img src="imagedefar.png" alt="Partenaire 3">
+                    </div>
+
+                    <button class="arrow-btn" type="button" aria-label="Partenaire suivant">&rsaquo;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials section-space" id="temoignage">
+            <div class="container">
+                <h2>Ils nous font confiance !</h2>
+
+                <div class="testimonial-area">
+                    <button class="arrow-btn side-arrow" type="button"
+                        aria-label="Témoignage précédent">&lsaquo;</button>
+
+                    <div class="testimonial-cards">
+                        <article class="testimonial-card">
+                            <img src="elipse1.png" alt="Portrait de Moussa A Gueye">
+                            <h3>Ibrahima khalil MBAYE</h3>
+                            <p class="role">Directeur RH</p>
+                            <p>
+                                ParBa simplifie notre organisation quotidienne et nous aide à mieux anticiper les
+                                besoins de remplacement dans nos équipes.
+                            </p>
+                        </article>
+
+                        <article class="testimonial-card">
+                            <img src="elipse2.png" alt="Portrait de Aminata Diop">
+                            <h3>Anna MBENGUE </h3>
+                            <p class="role">Responsable établissement</p>
+                            <p>
+                                Une solution claire, efficace et adaptée aux réalités des structures sanitaires et
+                                médico-sociales.
+                            </p>
+                        </article>
+                    </div>
+
+                    <button class="arrow-btn side-arrow" type="button" aria-label="Témoignage suivant">&rsaquo;</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-space" id="contact">
+            <div class="container">
+                <span class="section-line" aria-hidden="true"></span>
+                <h2>Contact</h2>
+
+                <form class="contact-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="fullname">Nom complet</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="structure">Structure</label>
+                        <input type="text" id="structure" name="structure">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Adresse mail</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message"></textarea>
+                    </div>
+
+                    <button class="btn form-submit" type="submit">Envoyer <span
+                            aria-hidden="true">&rarr;</span></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <!-- Colonne gauche -->
+            <div class="footer-column">
+                <h2>ParBa</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc auctor est et ultricies.
+                </p>
+            </div>
+
+            <!-- Colonne centre -->
+            <div class="footer-column">
+                <h2>A Propos</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse potenti. Donec luctus sem vitae arcu.
+                </p>
+            </div>
+
+            <!-- Icônes verticales à droite -->
+            <div class="social-vertical">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Bas du footer -->
+        <div class="footer-bottom">
+
+            <!-- Icônes horizontales -->
+            <div class="social-horizontal">
+                <a href="#" class="social-icon">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-twitter"></i>
+                </a>
+
+                <a href="#" class="social-icon">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+
+            <p>COPYRIGHT 2026 | DEFAR Sci - Tout droit réservés</p>
+        </div>
+    </footer>
+</body>
+
+</html>
+
